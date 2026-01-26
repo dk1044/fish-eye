@@ -33,5 +33,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/galaxybraindan/fisheye-dev:latest
-            ghcr.io/galaxybraindan/fisheye-dev:${{ github.sha }}
+            ghcr.io/dk1044/fisheye-dev:latest
+            ghcr.io/dk1044/fisheye-dev:${{ github.sha }}
