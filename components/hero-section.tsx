@@ -6,6 +6,11 @@ import Image from 'next/image'
 import { TextEffect } from '@/components/ui/text-effect'
 import { AnimatedGroup } from '@/components/ui/animated-group'
 import { HeroHeader } from './header'
+import CameraFallback from "@/components/camera-fallback"
+
+
+
+
 
 const transitionVariants = {
     item: {
@@ -128,10 +133,7 @@ export default function HeroSection() {
                                         height="1440"
                                     />
                                     */}
-                                    <img
-                                        src="http://192.168.1.119/stream"
-                                        alt="ESP32-CAM Fish Eye View"
-                                        className="aspect-[15/8] w-full rounded-2xl object-cover"/>
+                                    <CameraFallback />
                                     {/* <Image
                                         className="z-2 border-border/25 aspect-15/8 relative rounded-2xl border dark:hidden"
                                         src="/mail2-light.png"
