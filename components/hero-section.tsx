@@ -15,7 +15,7 @@ import CameraFallback from "@/components/camera-fallback"
 const transitionVariants = {
     item: {
         hidden: {
-            opacity: 0,
+            opacity: 1,
             filter: 'blur(12px)',
             y: 12,
         },
@@ -95,7 +95,7 @@ export default function HeroSection() {
                                     speedSegment={0.3}
                                     as="h1"
                                     className="mx-auto mt-8 max-w-4xl text-balance text-5xl max-md:font-semibold md:text-7xl lg:mt-16 xl:text-[5.25rem]">
-                                    Welcome to Fish Eye - The Ultimitate (Cheapest) Fish Watching Tool
+                                    Welcome to Fish Eye - The Ultimate (Cheapest) Fish Watching Tool
                                 </TextEffect>
                                 <TextEffect
                                     per="line"
@@ -104,7 +104,7 @@ export default function HeroSection() {
                                     delay={0.5}
                                     as="p"
                                     className="mx-auto mt-8 max-w-2xl text-balance text-lg">
-                                    Fish Eye represents the pinnacle of fish watching technology, a cumulation of 1 weeks worth of research into the most efficient (cheapest again) way to observe the fish in my pond, to make sure they haven't given up on life.
+                                    Fish Eye represents the pinnacle of fish watching technology, a cumulation of 1 weeks worth of research into the most efficient and cheapest way to observe the fish in my pond, to make sure they haven't given up on life.
                                 </TextEffect>
 
          
@@ -123,8 +123,8 @@ export default function HeroSection() {
                                 },
                                 ...transitionVariants,
                             }}>
-                            <div className="mask-b-from-55% relative -mr-56 mt-8 overflow-hidden px-2 sm:mr-0 sm:mt-12 md:mt-20">
-                                <div className="inset-shadow-2xs ring-background dark:inset-shadow-white/20 bg-background relative mx-auto max-w-6xl overflow-hidden rounded-2xl border p-4 shadow-lg shadow-zinc-950/15 ring-1">
+                            <div className="mask-b-from-90% relative -mr-56 mt-8 overflow-hidden px-2 sm:mr-0 sm:mt-12 md:mt-20">
+                                <div className="relative w-full max-w-7xl mx-auto overflow-hidden rounded-2xl border p-4 shadow-lg aspect-video">
                                     {/*<Image
                                         // className="bg-background aspect-15/8 relative hidden rounded-2xl dark:block"
                                         src="/pictures/pogfish.png"
