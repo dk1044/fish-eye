@@ -79,7 +79,7 @@ export default function FishSection() {
                         speedSegment={0.3}
                         delay={0.4}
                         as="p"
-                        className="mb-4">Scientific Name: Cyprinus rubrofuscus
+                        className="mb-4 text-lg">Scientific Name: Cyprinus rubrofuscus
                         </TextEffect>
                     
                     <TextEffect
@@ -87,14 +87,14 @@ export default function FishSection() {
                         speedSegment={0.3}
                         delay={0.4}
                         as="p"
-                        className="mb-4">Ideal Temperature: 18-25 celcius
+                        className="mb-4 text-lg">Ideal Temperature: 18-25 °C
                         </TextEffect>
                     <TextEffect
                         preset='fade-in-blur'
                         speedSegment={0.3}
                         delay={0.4}
                         as="p"
-                        className="mb-4">Average Length: 60-90 cm
+                        className="mb-4 text-lg">Average Length: 60-90 cm
                         </TextEffect>
 
                     <TextEffect
@@ -102,7 +102,7 @@ export default function FishSection() {
                         speedSegment={0.3}
                         delay={0.4}
                         as="p"
-                        className="mb-4">Average Lifespan: 25-50 years
+                        className="mb-4 text-lg">Average Lifespan: 25-50 years
                         </TextEffect>
 
                     <AnimatedGroup
@@ -115,7 +115,7 @@ export default function FishSection() {
                     }}
                     >
 
-                        <p className="mb-4 text-justify">
+                        <p className="mb-4 text-lg text-justify">
                         Koi are colorful fish that are often kept in outdoor ponds or water gardens.
                         They are known for their vibrant colors and patterns, which can include shades
                         of red, orange, yellow, white, and black. Koi are a type of domesticated carp
