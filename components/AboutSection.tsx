@@ -59,6 +59,16 @@ export default function AboutSection() {
                     <p className="mt-4">- GET THE CAMERA IN THE POND (Need to waterproof it in a case and run a cable)</p>
                     <p className="mt-4">- Add machine learning</p>   
                 </div>
+            <div className="mt-12 text-center">
+                <h2 className="text-4xl font-semibold lg:text-5xl">Software</h2>
+            <h2 className="text-4xl font-semibold lg:text-5xl">Hardware</h2>
+                <p>ESP32</p>
+            <h2 className="text-4xl font-semibold lg:text-5xl">Coding the Esp32</h2>
+                <p>Adding Light toggle</p>
+                <p>Adding Async</p>
+                <p>Adding OTA updates</p>
+            <h2 className="text-4xl font-semibold lg:text-5xl">Coding the website</h2>
+            </div>
         </section>
         </>
     )
