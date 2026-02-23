@@ -7,7 +7,7 @@ import { TextEffect } from '@/components/ui/text-effect'
 import { AnimatedGroup } from '@/components/ui/animated-group'
 import { HeroHeader } from './header'
 import CameraFallback from "@/components/camera-fallback"
-
+import type { Variants } from "framer-motion";
 
 
 
@@ -112,8 +112,24 @@ export default function HeroSection() {
                         </div>
 
                         <AnimatedGroup
+                            // variants={{
+                            //     container: {
+                            //         visible: {
+                            //             transition: {
+                            //                 staggerChildren: 0.05,
+                            //                 delayChildren: 0.75,
+                            //             },
+                            //         },
+                            //     },
+                            //     ...transitionVariants,
+                            // }}>
                             variants={{
                                 container: {
+                                hidden: {},
+                                visible: {},
+                                },
+                                item: {
+                                    hidden: {},
                                     visible: {
                                         transition: {
                                             staggerChildren: 0.05,
@@ -121,8 +137,9 @@ export default function HeroSection() {
                                         },
                                     },
                                 },
-                                ...transitionVariants,
-                            }}>
+                            }}
+
+                            >
                             <div className="mask-b-from-90% relative -mr-56 mt-8 overflow-hidden px-2 sm:mr-0 sm:mt-12 md:mt-20">
                                 <div className="relative w-full max-w-7xl mx-auto overflow-hidden rounded-2xl border p-4 shadow-lg aspect-video">
                                     {/*<Image

@@ -7,10 +7,11 @@ import { TextEffect } from '@/components/ui/text-effect'
 import { AnimatedGroup } from '@/components/ui/animated-group'
 import { HeroHeader } from './header'
 import CameraFallback from "@/components/camera-fallback"
+import type { Variants } from "framer-motion";
 
 export default function FishSection() {
     
-    const blockFade = {
+    const blockFade: Variants = {
   hidden: {
     opacity: 0,
     y: 12,
