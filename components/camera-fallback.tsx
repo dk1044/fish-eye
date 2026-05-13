@@ -7,7 +7,7 @@ export default function CameraFallback() {
 
   return (
     <img
-      src={failed ? "/pictures/pogfish.png" : "http://192.168.1.115/stream"}
+      src={failed ? "/pictures/pogfish.png" : "http://192.168.1.184:81"}
       alt="ESP32-CAM Fish Eye View"
       className="aspect-[15/8] w-full max-h-full rounded-2xl object-contain bg-black"
       onError={() => setFailed(true)}
