@@ -54,9 +54,7 @@ export default function AboutSection() {
 
                 <div className="text-center">
                     <h3 className="text-3xl font-semibold lg:text-5xl">TO DO:</h3>
-                    <p className="mt-4">- Align these logos properly ^^^</p>
                     <p className="mt-4">- Convert to HTTPS</p>             
-                    <p className="mt-4">- GET THE CAMERA IN THE POND (Need to waterproof it in a case and run a cable)</p>
                     <p className="mt-4">- Add machine learning</p>   
                 </div>
             <div className="mt-12 text-center">
